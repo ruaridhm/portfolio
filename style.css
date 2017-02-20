@@ -1,3 +1,10 @@
+.coursegrid {
+	max-width: 50%;
+}
+.progress {
+	margin-top: 10px;
+}
+
 .portfolio {
 	max-width: 33%,
 }
@@ -28,6 +35,9 @@ h1 {
 	text-align: center;
 }
 
+h3 {
+	text-align: center;
+}
 #buttons {
 	float:right;
 	position: relative;
