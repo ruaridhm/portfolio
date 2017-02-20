@@ -1,8 +1,28 @@
 .coursegrid {
 	max-width: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 100px;
+}
+
+#colorwrapper {
+	background-color: #555;
+
+}
+#spacer {
+	margin-top: 20px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.fa-cog {
+  color:#5BC0DE;
 }
 .progress {
-	margin-top: 10px;
+	margin: 10px 10px 0px 10px;
 }
 
 .portfolio {
@@ -61,3 +81,6 @@ h3 {
 	font-size: 15px;
 }
 
+.tiny {
+	font-size:
+}
