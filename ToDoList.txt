@@ -1,16 +1,15 @@
 add shrinking navbar
 add highlight section to navbar
 
-fix jumbotron so it spans entire page
+
 
 change font-family for <h> & <p> elements
 correctly align courses and progress bars
-	. set 3 X 2 grid instead of current 3 X 1 
+
 fix progress bars
 
 remove lorem text and add intro
 add proper placeholders for portfolio work
 
-add social links
 add js functionality to contact form
 add credit to bottom of page and year
