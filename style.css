@@ -1,0 +1,44 @@
+.portfolio {
+	max-width: 33%,
+}
+
+.Socal-links {
+	list-style-type : none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline block;
+       align-self: center;
+}
+
+li {
+    float: left;
+
+}
+
+.Socal-links li {
+	display: inline block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+#buttons {
+	float:right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+
+}
+#buttons ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+#buttons li{float:left;position:relative;}/* ie needs position:relative here*/
