@@ -52,3 +52,7 @@ h3 {
 }
 
 #buttons li{float:left;position:relative;}/* ie needs position:relative here*/
+
+.SiteGitLink {
+	text-align: center;
+}
