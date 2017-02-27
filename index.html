@@ -216,7 +216,7 @@
 					 	<br>
 					</div>
 	      			<div class="Contactform">
-	      				<form>
+	      				<form method="post" name="myemailform" action="form-to-email.php">
 		      			    <div class="form-group">
 	        					<label for="inputEmail">Name</label>
 	        					<input type="name" class="form-control" id="inputName" placeholder="Name">
@@ -230,10 +230,10 @@
 	        					<input type="phone" class="form-control" id="inputPhone" placeholder="Phone">
 	    					</div>
 	    					<div class="form-group">
-	        					<label for="inputMessage">Email</label>
-	        					<input type="message" class="form-control" id="inputMessage" placeholder="Message">
+	        					<label for="inputMessage">Message</label>
+	        					<input type="message" class="form-control"  id="inputMessage" placeholder="Message">
 	    					</div>
-	    					<button type="submit" class="btn btn-primary">Submit</button>
+	    					<button type="submit" value="Send Form" class="btn btn-primary">Submit</button>
 	    				</form>
     				</div>
     			</section>
