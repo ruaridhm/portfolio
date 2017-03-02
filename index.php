@@ -13,7 +13,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/4c73160f1d.js"></script>
 
-		<? php include('php/form_process.php'); ?>
+		<? php include('form_process.php'); ?>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -117,12 +117,8 @@
 		     			</p>
 		     			<p>Since then have dabbled in a few other programming languages with ranging levels of success.  Generally just learning enough to complete the task at hand.</p>
 		     			<p>
-		     			I have decided to take a more structured effort to learning Web Development. By working through various courses which are listed at the <a href="#page-top">top of this page</a> and by trying to gain a greater grasp of the key concepts and core elements to programming.
-
-		     			 This site has been created to document my learning progress, to showcase future projects and as a coding sandbox.
+		     			I have decided to make a structured effort to learning Web Development. This site has been created to document my learning progress, as a coding sandbox and to showcase my projects.
 		     			</p>
-		     			<p>
-		     			Because of this last purpose this site will change day by day as I implemment and debug new features and things I have learnt.
 		     		</section>
 		     		<section id="Portfolio" class="Portfolio-section">
 <br>

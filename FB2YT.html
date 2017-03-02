@@ -6,21 +6,53 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="style2.css">
+		<link rel="stylesheet" type="text/css" href="css/style2.css">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	</head>
 	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header page-scroll">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span> 
+		      	</button>
+		      	<a class="navbar-brand page-scroll" href="index.html">Ruaridh McGuckin</a>
+		    </div>
+
+		    <div class="collapse navbar-collapse" id= "myNavbar">
+		      <ul class="nav navbar-nav nav pull-right ">
+		        <li class="active">
+		        	<a class="scrollable" href="index.html#page-top">Home</a></li>
+		        <li>
+		        	<a class="scrollable" href="index.html#About">About</a></li>
+		        <li>
+		        	<a class="scrollable" href="index.html#Portfolio">Portfolio</a></li>
+		        <li>
+		        	<a class="scrollable" href="index.html#Contact">Contact</a></li>
+		      </ul>
+		  	</div>
+		  </div>
+		</nav>
+		
+		<div class="container">
+			<div class="jumbotron">
 <h1>Facebook Group to Youtube playlist</h1>
-
-<p>Having previously completed this project in the past  by copying and pasting code and debugging through google searches and without any real knowledge of the languages I used to create it. I have decided to rewrite the project from the start with a few improvements</p>
-	
-<h2>project</h2>
-
+<br>
+<p id="red" ="red">Having previously completed this project in the past  by copying and pasting code and debugging through google searches .I have decided to rewrite the project from the start with a few improvements</p>
 <h3>problem </h3>
-	<p>cannot go to facebook group and autoplay every song through each post to the group</p>
-	<h2>example</h2>
+	<p>I cannot go to a facebook group containing youtube song links, press play and have every song in the group autoplay</p>
+	<h2>Example</h2>
+
 	<img src="images/FB.png">
+	<br>
+	<br>
+	<h1>To</h1>
+	<br>
+	<br>
+	<br>
 	<img src="images/youtubeplaylist.png">
 
 
@@ -28,8 +60,8 @@
 
 <ol>
 <li>
-	Using Facebook API take youtube links from facebook group import into relational database with
-	<ol>
+	Using Facebook Graph API take youtube links from facebook group import into relational database with
+	<ul>
 		<li>ID</li>
 		<li>URL</li>
 		<li>Artist</li>
@@ -38,19 +70,23 @@
 		<li>number of comments</li>
 		<li>times posted</li>
 		<li>posted by</li>
-	</ol>
+	</ul>
+
 </li>
+<br>
 <li>
-	Using youtube api create 
-	<ol>
+	Using Youtube Data API create 
+	<ul>
 		<li>new playlist</li>
 		<li>name playlist after Facebook group</li>
 		<li>add all songs to newly created playlist</li>
-	</ol>
+	</ul>
 </li>
+<br>
 <li>
 	Download highest possible audio from youtube
 </li>
+<br>
 <li>
 	Check Artist and Song against external database
 
@@ -58,12 +94,14 @@
 
 	and automate download of FLAC 
 </li>
-
+<br>
 <li>Create UI for browsing database with 		ability to sort.
 </li>
+<br>
 <li> Add statistics and make data beautiful!
 </li>
 </ol>
-
+</div>
+</div>
 </body>
 </html>
