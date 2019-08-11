@@ -134,7 +134,7 @@ fieldset {
     height: 100px;
 }
 
-#colorwrapper {
+.colorwrapper {
 	background-color: #555;
 
 }
