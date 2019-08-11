@@ -1,0 +1,17 @@
+p {
+	text-align: center;
+}
+
+img {
+	width:800px;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+	text-align: center;
+}
+#red {
+	color: red;
+	font-size: 10px;
+
+}
