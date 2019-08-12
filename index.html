@@ -11,7 +11,9 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="https://use.fontawesome.com/4c73160f1d.js"></script>
+		
+		<script src="https://kit.fontawesome.com/f519eda801.js"></script>
+		<script src="script.js"></script>
 
 		<?php include('form_process.php'); ?>
 	</head>
@@ -55,13 +57,24 @@
 					      <br>
 					      <h3>Current Progress</h3>
 					      <br>
-		      				<div id="colorwrapper">
+		      				<div class="colorwrapper">
 						      	<div class="row">
 
 				      				<div class="col-xs-6 col-sm-4" id="spacer">
-				      					<a href="http://upskillcourses.com">
-				      						<img class="coursegrid" src="images/Upskill.png">
-				      					</a>
+				      					<a href="http://eloquentjavascript.net/">
+				      						<img class="coursegrid" src="images/eloquent.png">
+										  </a>
+										  
+										  <div id="eloquentCompleted">
+											  <ul>
+												  <li>Values, Types, and Operators <i class="fas fa-check"></i></li>
+												  <li>Program Structure <i class="fas fa-check"></i></li>
+												  <li>Functions <i class="fas fa-check"></i></li>
+												  <li>Data Structures: Objects and Arrays <i class="fas fa-check"></i></li>
+												  <li>Higher-order Functions <i class="fas fa-check"></i></li>
+												  <li>The Secret Life of Objects <i class="fas fa-spinner"></i></li>
+											  </ul>
+										  </div>
 				      				</div>
 
 				      				<div class="col-xs-6 col-sm-4" id="spacer">
@@ -72,14 +85,37 @@
 				     				<div class="col-xs-6 col-sm-4" id="spacer">
 				      					<a href="https://www.freecodecamp.com/ruaridhm">
 				      					<img class="coursegrid" src="https://i.ytimg.com/vi/Drnp29SJY8w/maxresdefault.jpg">
-				      					</a>
+										  </a>
+										
+										  <div id="fccCompleted">
+											  <ul>
+												  <li>Responsive Web Design Certification
+													  <ul>
+														  	<li>Basic HTML and HTML 5 <i class="fas fa-check"></i><li>
+															<li>Basic Css <i class="fas fa-check"></i></li>
+															<li>Applied Visual Design <i class="fas fa-check"></i></li>
+															<li>Applied Accessability <i class="fas fa-check"></i></li>
+															<li>Responsive Web Design Principles <i class="fas fa-check"></i></li>
+															<li>CSS Flexbox <i class="fas fa-check"></i></li>
+															<li>CSS Grid <i class="fas fa-check"></i></li>
+															<li>Responsive Web Design Projects <i class="fas fa-check"></i></li>
+													  </ul>
+												  </li>
+												  <li>Javascript Algorithms And Data Structures Certification</li>
+												  		<ul>
+															<li>Basic Javascript <i class="fas fa-check"></i></li>
+															<li>ES6 <i class="fas fa-check"></i></li>
+															<li>Regular Expressions <i class="fas fa-spinner"></i></li>
+														  </ul>
+											  </ul>
+										  </div>
 		  							</div>
 								</div>
 						
 						      	<div class="row">
 						      		<div class="col-xs-6 col-sm-4">
 										<div class="progress">
-				  							<div class="progress-bar progress-bar-striped progress-bar-info coursegrid" role="progressbar" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100" style="width:63%"> 64% Complete
+				  							<div class="progress-bar progress-bar-striped progress-bar-info coursegrid" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width:33%"> 33% Complete
 				    						</div>
 										</div>
 						      		</div>
@@ -100,7 +136,16 @@
 						      	</div>
 
 		      				</div>
-	    			</section>
+					</section>
+					
+					<section id="Daily" class="Daily-section">
+						<h3>What I learnt today</h3>
+						<div class="colorwrapper">
+							<a class="twitter-timeline" data-chrome="noheader nofooter transparent" data-lang="en" data-height="200" data-dnt="true" data-theme="dark" href="https://twitter.com/code_progress?ref_src=twsrc%5Etfw">Tweets by code_progress</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+
+
+					</section>
 
 	    			<section id="About" class="About-section">
 		     			<div>
@@ -132,75 +177,261 @@
 		     		
 		     			<h1>Portfolio</h1>
  			
-		      		<div class="col-xs-6 col-sm-4">
-		      			<a href ="FB2YT.html">
-		      			<img src="images/FB2YTlogo.png" alt="Facebook group to Youtube playlist">
-		      			</a>
-		      		</div>
+						 <div class="col-xs-6 col-sm-4">	
+								<!-- Trigger the modal with a button -->
+								 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#fb2ytModal">FB2YT Playlist</button>
+	   
+								 <!-- Modal -->
+								 <div class="modal fade" id="fb2ytModal" role="dialog">
+								   <div class="modal-dialog">
+		   
+									 <!-- Modal content-->
+										 <div class="modal-content">
+										   <div class="modal-header">
+												 <button type="button" class="close" data-dismiss="modal">&times;</button>
+												 <h4 class="modal-title">Facbook to Youtube playlist</h4>
+										   </div>
+										   <div class="modal-body">
+												 <p>Some text in the modal.</p>
+										   </div>
+										   <div class="modal-footer">
+												 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										   </div>
+										 </div>      
+								   </div>
+								 </div>
+							</div>
 
-		      		<div class="col-xs-6 col-sm-4">
-		      			<img src="images/EQ_COL.png">
+		      		<div class="col-xs-6 col-sm-4">	
+						 <!-- Trigger the modal with a button -->
+  						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#arkanoidModal">Arkanoid</button>
+
+  						<!-- Modal -->
+  						<div class="modal fade" id="arkanoidModal" role="dialog">
+    						<div class="modal-dialog">
+    
+      						<!-- Modal content-->
+      							<div class="modal-content">
+        							<div class="modal-header">
+          								<button type="button" class="close" data-dismiss="modal">&times;</button>
+          								<h4 class="modal-title">Arkanoid</h4>
+							        </div>
+        							<div class="modal-body">
+          								<p>Some text in the modal.</p>
+        							</div>
+        							<div class="modal-footer">
+          								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        							</div>
+      							</div>      
+    						</div>
+  						</div>
 		     		</div>
 
-				    <div class="col-xs-6 col-sm-4">
-					    <img src="images/EQ_COL.png">
-		      		</div>
+					 <div class="col-xs-6 col-sm-4">	
+							<!-- Trigger the modal with a button -->
+							 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#calcModal">Basic Calculator</button>
+   
+							 <!-- Modal -->
+							 <div class="modal fade" id="calcModal" role="dialog">
+							   <div class="modal-dialog">
+	   
+								 <!-- Modal content-->
+									 <div class="modal-content">
+									   <div class="modal-header">
+											 <button type="button" class="close" data-dismiss="modal">&times;</button>
+											 <h4 class="modal-title">Basic Calculator</h4>
+									   </div>
+									   <div class="modal-body">
+											 <p>Some text in the modal.</p>
+									   </div>
+									   <div class="modal-footer">
+											 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									   </div>
+									 </div>      
+							   </div>
+							 </div>
+						</div>
 
-		      		<div class="col-xs-6 col-sm-4">
-		      			<img src="images/EQ_COL.png">
-		      		</div>
+						<div class="col-xs-6 col-sm-4">	
+								<!-- Trigger the modal with a button -->
+								 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#fbModal">Facebook Homepage Clone</button>
+	   
+								 <!-- Modal -->
+								 <div class="modal fade" id="fbModal" role="dialog">
+								   <div class="modal-dialog">
+		   
+									 <!-- Modal content-->
+										 <div class="modal-content">
+										   <div class="modal-header">
+												 <button type="button" class="close" data-dismiss="modal">&times;</button>
+												 <h4 class="modal-title">Facebook Homepage Clone</h4>
+										   </div>
+										   <div class="modal-body">
+												 <p>Some text in the modal.</p>
+										   </div>
+										   <div class="modal-footer">
+												 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										   </div>
+										 </div>      
+								   </div>
+								 </div>
+							</div>
 
-		      		<div class="col-xs-6 col-sm-4">
-		      			<img src="images/EQ_COL.png">
-		      		</div>	
+							<div class="col-xs-6 col-sm-4">	
+									<!-- Trigger the modal with a button -->
+									 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#streakModal">Streak Tracker</button>
+		   
+									 <!-- Modal -->
+									 <div class="modal fade" id="streakModal" role="dialog">
+									   <div class="modal-dialog">
+			   
+										 <!-- Modal content-->
+											 <div class="modal-content">
+											   <div class="modal-header">
+													 <button type="button" class="close" data-dismiss="modal">&times;</button>
+													 <h4 class="modal-title">Streak Tracker</h4>
+											   </div>
+											   <div class="modal-body">
+													 <p>Some text in the modal.</p>
+											   </div>
+											   <div class="modal-footer">
+													 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											   </div>
+											 </div>      
+									   </div>
+									 </div>
+								</div>
 
-		      		<div class="col-xs-6 col-sm-4">
-		     			<img src="images/EQ_COL.png">
-		      		</div>
+								<div class="col-xs-6 col-sm-4">	
+										<!-- Trigger the modal with a button -->
+										 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#todoModal">ToDo List</button>
+			   
+										 <!-- Modal -->
+										 <div class="modal fade" id="todoModal" role="dialog">
+										   <div class="modal-dialog">
+				   
+											 <!-- Modal content-->
+												 <div class="modal-content">
+												   <div class="modal-header">
+														 <button type="button" class="close" data-dismiss="modal">&times;</button>
+														 <h4 class="modal-title">To Do List</h4>
+												   </div>
+												   <div class="modal-body">
+														 <p>Some text in the modal.</p>
+												   </div>
+												   <div class="modal-footer">
+														 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												   </div>
+												 </div>      
+										   </div>
+										 </div>
+									</div>
 
-		      		<div class="col-xs-6 col-sm-4">
-		     		 	<img src="images/EQ_COL.png">
-		    		</div>
+									<div class="col-xs-6 col-sm-4">	
+											<!-- Trigger the modal with a button -->
+											 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#whereModal">Where The Fuck Is It</button>
+				   
+											 <!-- Modal -->
+											 <div class="modal fade" id="whereModal" role="dialog">
+											   <div class="modal-dialog">
+					   
+												 <!-- Modal content-->
+													 <div class="modal-content">
+													   <div class="modal-header">
+															 <button type="button" class="close" data-dismiss="modal">&times;</button>
+															 <h4 class="modal-title">Where The Fuck Is It</h4>
+													   </div>
+													   <div class="modal-body">
+															 <p>Some text in the modal.</p>
+													   </div>
+													   <div class="modal-footer">
+															 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+													   </div>
+													 </div>      
+											   </div>
+											 </div>
+										</div>
 
-		    		<div class="col-xs-6 col-sm-4">
-		    		  	<img src="images/EQ_COL.png">
-		    		</div>
+										<div class="col-xs-6 col-sm-4">	
+												<!-- Trigger the modal with a button -->
+												 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#dontgetitModal">I Don't Get It (JS)</button>
+					   
+												 <!-- Modal -->
+												 <div class="modal fade" id="dontgetitModal" role="dialog">
+												   <div class="modal-dialog">
+						   
+													 <!-- Modal content-->
+														 <div class="modal-content">
+														   <div class="modal-header">
+																 <button type="button" class="close" data-dismiss="modal">&times;</button>
+																 <h4 class="modal-title">I Dont Get It (JS)</h4>
+														   </div>
+														   <div class="modal-body">
+																 <p>Some text in the modal.</p>
+														   </div>
+														   <div class="modal-footer">
+																 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+														   </div>
+														 </div>      
+												   </div>
+												 </div>
+											</div>
 
-		   			<div class="col-xs-6 col-sm-4">
-		    		 	<img src="images/EQ_COL.png">
-		      		</div>
+											<div class="col-xs-6 col-sm-4">	
+													<!-- Trigger the modal with a button -->
+													 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#dmycModal">DMYC App</button>
+						   
+													 <!-- Modal -->
+													 <div class="modal fade" id="dmycModal" role="dialog">
+													   <div class="modal-dialog">
+							   
+														 <!-- Modal content-->
+															 <div class="modal-content">
+															   <div class="modal-header">
+																	 <button type="button" class="close" data-dismiss="modal">&times;</button>
+																	 <h4 class="modal-title">DMYC App</h4>
+															   </div>
+															   <div class="modal-body">	
+																	 <p>Some text in the modal.</p>
+															   </div>
+															   <div class="modal-footer">
+																	 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+															   </div>
+															 </div>      
+													   </div>
+													 </div>
+												</div>
 	     				<h1> Contact</h1>
 	     				<div id="buttons">
 	      					<ul class="Socal-links">
 					      		<li> 
 					      			<a href="https://www.facebook.com/ruaridh.mcguckin" target="blank" class="btn btn-social-icon btn-lg btn-facebook">
-					      				<i class="fa fa-facebook">
+					      				<i class="fab fa-facebook">
 					      				</i>
 					      			</a>
 					      		</li>
 					      		
 					      		<li> 
 					      			<a href="https://twitter.com/ruaridhm" target="blank" class="btn btn-social-icon btn-lg btn-twitter">
-					      				<i class="fa fa-twitter">
+					      				<i class="fab fa-twitter">
 					      				</i>
 					      			</a>
 					      		</li>
 					      		
 					      		<li> 
 					      			<a href="https://www.instagram.com/ruaridh.m" target="blank" class="btn btn-social-icon btn-lg btn-instagram">
-					      				<i class="fa fa-instagram">
+					      				<i class="fab fa-instagram">
 					      				</i>
 					      			</a>
 					      		</li>
 					      		<li> 
 					      			<a href="https://github.com/ruaridhm" target="blank" class="btn btn-social-icon btn-lg btn-github">
-					      				<i class="fa fa-github">
-					      				</i>
+										<i class="fab fa-github"></i>
 					      			</a>
 					      		</li>
 					      		<li> 
 					      			<a href="https://www.freecodecamp.com/ruaridhm" target="blank" class="btn btn-social-icon btn-lg btn-freecodecamp">
-					      				<i class="fa fa-free-code-camp" aria-hidden="true"></i>
+					      				<i class="fab fa-free-code-camp" aria-hidden="true"></i>
 					      			</a>	
 					      		</li>
 				<!-- 
@@ -213,7 +444,7 @@
 				-->
 					      		<li> 
 					      			<a href="https://soundcloud.com/ruaridhm" target="blank" class="btn btn-social-icon btn-lg btn-soundcloud">
-					      				<i class="fa fa-soundcloud">
+					      				<i class="fab fa-soundcloud">
 					      				</i>
 					      			</a>
 					      		</li>
@@ -230,7 +461,7 @@
 					</div>
 	      			
 <div class="contactcontainer">  
-  <form id="contact" action="<? $_SERVER['PHP_SELF']; ?>" method="post">
+  <form id="contact" action="	<? $_SERVER['PHP_SELF']; ?>" method="post">
   <h4>Email me!</h4>
     <fieldset>
       <input placeholder="Your name" type="text" tabindex="1" name="name" value="<?= $name ?>" autofocus>
