@@ -212,3 +212,10 @@ h3 {
 .tiny {
 	font-size: 8px;
 }
+
+.fa-check{
+	color: green;
+}
+.fa-spinner{
+	color: orange;
+}
