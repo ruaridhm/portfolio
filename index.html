@@ -13,7 +13,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		
 		<script src="https://kit.fontawesome.com/f519eda801.js"></script>
-		<script src="script.js"></script>
+		
 
 		<?php include('form_process.php'); ?>
 	</head>
@@ -64,17 +64,6 @@
 				      					<a href="http://eloquentjavascript.net/">
 				      						<img class="coursegrid" src="images/eloquent.png">
 										  </a>
-										  
-										  <div id="eloquentCompleted">
-											  <ul>
-												  <li>Values, Types, and Operators <i class="fas fa-check"></i></li>
-												  <li>Program Structure <i class="fas fa-check"></i></li>
-												  <li>Functions <i class="fas fa-check"></i></li>
-												  <li>Data Structures: Objects and Arrays <i class="fas fa-check"></i></li>
-												  <li>Higher-order Functions <i class="fas fa-check"></i></li>
-												  <li>The Secret Life of Objects <i class="fas fa-spinner"></i></li>
-											  </ul>
-										  </div>
 				      				</div>
 
 				      				<div class="col-xs-6 col-sm-4" id="spacer">
@@ -86,34 +75,22 @@
 				      					<a href="https://www.freecodecamp.com/ruaridhm">
 				      					<img class="coursegrid" src="https://i.ytimg.com/vi/Drnp29SJY8w/maxresdefault.jpg">
 										  </a>
-										
-										  <div id="fccCompleted">
-											  <ul>
-												  <li>Responsive Web Design Certification
-													  <ul>
-														  	<li>Basic HTML and HTML 5 <i class="fas fa-check"></i><li>
-															<li>Basic Css <i class="fas fa-check"></i></li>
-															<li>Applied Visual Design <i class="fas fa-check"></i></li>
-															<li>Applied Accessability <i class="fas fa-check"></i></li>
-															<li>Responsive Web Design Principles <i class="fas fa-check"></i></li>
-															<li>CSS Flexbox <i class="fas fa-check"></i></li>
-															<li>CSS Grid <i class="fas fa-check"></i></li>
-															<li>Responsive Web Design Projects <i class="fas fa-check"></i></li>
-													  </ul>
-												  </li>
-												  <li>Javascript Algorithms And Data Structures Certification</li>
-												  		<ul>
-															<li>Basic Javascript <i class="fas fa-check"></i></li>
-															<li>ES6 <i class="fas fa-check"></i></li>
-															<li>Regular Expressions <i class="fas fa-spinner"></i></li>
-														  </ul>
-											  </ul>
-										  </div>
 		  							</div>
 								</div>
 						
 						      	<div class="row">
 						      		<div class="col-xs-6 col-sm-4">
+											<button class="collapsible">Progress Timeline</button>
+											<div class="content">
+												  <ul>
+														  <li>Values, Types, and Operators <i class="fas fa-check"></i></li>
+														  <li>Program Structure <i class="fas fa-check"></i></li>
+														  <li>Functions <i class="fas fa-check"></i></li>
+														  <li>Data Structures: Objects and Arrays <i class="fas fa-check"></i></li>
+														  <li>Higher-order Functions <i class="fas fa-check"></i></li>
+														  <li>The Secret Life of Objects <i class="fas fa-spinner"></i></li>
+												  </ul>
+											</div>
 										<div class="progress">
 				  							<div class="progress-bar progress-bar-striped progress-bar-info coursegrid" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width:33%"> 33% Complete
 				    						</div>
@@ -128,9 +105,31 @@
 						     		</div>
 
 						      		<div class="col-xs-6 col-sm-4 centered">
-						      			<i class="fa fa-cog fa-3x centered" aria-hidden="true" >
-						      			</i>
-						      			<p id="smaller">75 items complete!</p>
+											<button class="collapsible">Progress Timeline</button>
+											<div class="content">
+												<ul>
+													  <li>Responsive Web Design Certification
+														  <ul>
+																  <li>Basic HTML and HTML 5 <i class="fas fa-check"></i><li>
+																<li>Basic Css <i class="fas fa-check"></i></li>
+																<li>Applied Visual Design <i class="fas fa-check"></i></li>
+																<li>Applied Accessability <i class="fas fa-check"></i></li>
+																<li>Responsive Web Design Principles <i class="fas fa-check"></i></li>
+																<li>CSS Flexbox <i class="fas fa-check"></i></li>
+																<li>CSS Grid <i class="fas fa-check"></i></li>
+																<li>Responsive Web Design Projects <i class="fas fa-check"></i></li>
+														  </ul>
+													  </li>
+													  <li>Javascript Algorithms And Data Structures Certification</li>
+															  <ul>
+																<li>Basic Javascript <i class="fas fa-check"></i></li>
+																<li>ES6 <i class="fas fa-check"></i></li>
+																<li>Regular Expressions <i class="fas fa-spinner"></i></li>
+															  </ul>
+												</ul>
+											</div>
+						      			<i class="fa fa-cog fa-3x centered" aria-hidden="true"></i>										  
+						      			<p id="smaller">310 items complete!</p>
 						      			 		
 						      		</div>
 						      	</div>
@@ -496,7 +495,7 @@
 	    	</div>
 	
 			</div>
-	
+			<script src="script.js"></script>
 	</body>
 
 </html>
