@@ -150,7 +150,7 @@ fieldset {
   color:#5BC0DE;
 }
 .progress {
-	margin: 10px 10px 0px 10px;
+	margin: 10px 10px 10px 10px;
 }
 
 .portfolio {
@@ -163,7 +163,7 @@ fieldset {
     padding: 0;
     overflow: hidden;
     display: inline block;
-       align-self: center;
+    align-self: center;
 }
 
 li {
@@ -220,16 +220,20 @@ h3 {
 	color: orange;
 }
 
+.centreWrap{
+	margin: 10px auto;
+	text-align: center;
+}
+
 .collapsible {
-	background-color: #777;
-	color: white;
-	cursor: pointer;
-	padding: 18px;
-	width: 100%;
+	
+	line-height: 0.33;
 	border: none;
-	text-align: left;
+	text-align: center;
 	outline: none;
-	font-size: 15px;
+	font-size: 14px;
+	;
+
   }
   
   .active, .collapsible:hover {
